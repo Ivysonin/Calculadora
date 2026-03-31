@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="calc">
+        <input type="text" id="display" class="display" disabled>
+
+        <div class="buttons">
+            <button onclick="clearDisplay()" class="clear">C</button>
+            <button class="op" onclick="setOp('divisao')">/</button>
+            <button class="op" onclick="setOp('multiplicacao')">*</button>
+            <button class="op" onclick="setOp('subtracao')">-</button>
+
+            <button onclick="addNumber(7)">7</button>
+            <button onclick="addNumber(8)">8</button>
+            <button onclick="addNumber(9)">9</button>
+            <button class="op" onclick="setOp('adicao')">+</button>
+
+            <button onclick="addNumber(4)">4</button>
+            <button onclick="addNumber(5)">5</button>
+            <button onclick="addNumber(6)">6</button>
+            <button class="op" onclick="setOp('potenciacao')">^</button>
+
+            <button onclick="addNumber(1)">1</button>
+            <button onclick="addNumber(2)">2</button>
+            <button onclick="addNumber(3)">3</button>
+            <button class="op" onclick="raiz()">√</button>
+
+            <button onclick="addNumber(0)">0</button>
+            <button onclick="addDot()">.</button>
+            <button onclick="calculate()" class="equal">=</button>
+            <button class="op" onclick="porcentagem()">%</button>
+        </div>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

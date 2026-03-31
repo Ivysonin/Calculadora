@@ -1,15 +1,62 @@
-# 🚀 Projeto para estudantes
+# 🧮 Calculadora Web
 
-## 📖 Desenvolvido para:
-- Ajudar estudantes de escolas a fazer seus exercícios de casa mais rápido e prático
-- Estudar assuntos
-- Olhar resultado dos cálculos
+## 🚀 Sobre o projeto
+Calculadora simples desenvolvida para facilitar cálculos do dia a dia de forma rápida e prática.
 
-## 👨‍💻 Tecnologias:
-- Python
+## 📖 Objetivo
+- Ajudar estudantes em exercícios
+- Realizar cálculos básicos com facilidade
+- Servir como projeto de estudo com Flask + JavaScript
 
-## 📷 Imagem do código funcionando: 
-![Código rodando](https://github.com/user-attachments/assets/930816ec-a6f1-4e91-a2bf-0271a43dec50)
+## ⚙️ Funcionalidades
+- Adição, subtração, multiplicação e divisão
+- Potenciação
+- Raiz quadrada
+- Porcentagem contextual (ex: `100 + 10%`)
+- Encadeamento de operações
+
+## 👨‍💻 Tecnologias
+- Python (Flask)
+- HTML, CSS
+- JavaScript (Fetch API)
+
+## ▶️ Como rodar o projeto
+
+
+### 1. Clonar o repositório
+
+```bash
+git clone "adicionar"
+cd Calculadora
+```
+
+### 2. Criar ambiente virtual
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Instalar dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Executar a Aplicação
+
+```bash
+python3 run.py
+```
+
+Servidor local:
+
+```
+http://localhost:5000
+```
+
+## 📷 Preview
+
 
 ## 📄 Licença
 
