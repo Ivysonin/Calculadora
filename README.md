@@ -57,6 +57,7 @@ http://localhost:5000
 
 ## 📷 Preview
 
+<img width="563" height="539" alt="calculadora" src="https://github.com/user-attachments/assets/9b5df4ba-97ad-45c3-955f-b802342e7682" />
 
 ## 📄 Licença
 
