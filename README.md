@@ -26,7 +26,7 @@ Calculadora simples desenvolvida para facilitar cálculos do dia a dia de forma 
 ### 1. Clonar o repositório
 
 ```bash
-git clone "adicionar"
+git clone https://github.com/Ivysonin/Calculadora.git
 cd Calculadora
 ```
 
